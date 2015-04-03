@@ -183,6 +183,8 @@ h4 {
   width: 200px;
   height: 200px;
   border: 6px solid #879dc9;
+  margin: auto;
+  text-align: center;
 }
 
 #colleges {
@@ -191,15 +193,6 @@ h4 {
   text-align: center;
   margin: auto;
   /*display: inline-block;*/
-}
-
-#college {
-  border-radius: 50%;
-  width: 200px;
-  height: 200px;
-  border: 6px solid #879dc9;
-  margin: auto;
-  text-align: center;
 }
 
 #asu {
