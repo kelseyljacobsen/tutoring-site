@@ -4,7 +4,6 @@
     <title>Kelsey L Jacobsen</title>
     <script src="js/jquery-1.11.2.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> 
-    <script src="js/index.js"></script>
     <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
@@ -100,9 +99,9 @@
         <div class="container-fluid">
           <h2>student successes</h2>
           <div id="successes-info">
-          <p>The students with whom I have worked privately have been accepted to the following colleges:<br><br></p>
+          <p id="successes-text">The high school seniors with whom I have worked privately have been accepted to the following colleges:<br><br></p>
           
-            <div class="row" id="colleges">
+            <div class="row" id="colleges1">
             
               <div class="col-md-3">
                 <div id="asu" class="college">
@@ -121,13 +120,25 @@
               </div>
 
               <div class="col-md-3">
+                <div id="chapman" class="college">
+                  <div id="overlay">
+                    <span class="college-text">Chapman University</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3">
                 <div id="clemson" class="college">
                   <div id="overlay">
                     <span class="college-text">Clemson University</span>
                   </div>
                 </div>
               </div>
+     
+            </div>
 
+            <div class="row" id="colleges2">
+            
               <div class="col-md-3">
                 <div id="indiana" class="college">
                   <div id="overlay">
@@ -135,22 +146,94 @@
                   </div>
                 </div>
               </div>
-          
-     
-          </div>
-          <p>
 
-          Oregon State University<br>
-          Rutgers University<br>
-          Santa Clara University<br>
-          University of Arizona (with academic scholarship)<br>
-          University of California, Los Angeles<br>
-          University of Illinois, Urbana-Champaign<br>
-          University of Nebraska, Lincoln (with academic scholarship)<br>
-          University of Oregon<br>
-          University of Richmond<br>
-          University of Southern California<br>
-          </p>
+              <div class="col-md-3">
+                <div id="msu" class="college">
+                  <div id="overlay">
+                    <span class="college-text">Michigan State University</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div id="osu" class="college">
+                  <div id="overlay">
+                    <span class="college-text">Oregon State University</span>
+                  </div>
+                </div>
+              </div>
+          
+              <div class="col-md-3">
+                <div id="rutgers" class="college">
+                  <div id="overlay">
+                    <span class="college-text">Rutgers University</span>
+                  </div>
+                </div>
+              </div>
+     
+            </div>
+          
+            <div class="row" id="colleges3">
+
+              <div class="col-md-3">
+                <div id="scu" class="college">
+                  <div id="overlay">
+                    <span class="college-text">Santa Clara University</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div id="arizona" class="college">
+                  <div id="overlay">
+                    <span class="college-text">University of Arizona</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div id="illinois" class="college">
+                  <div id="overlay">
+                    <span class="college-text">University of Illinois at Urbana-Champaign</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div id="nebraska" class="college">
+                  <div id="overlay">
+                    <span class="college-text">University of Nebraska - Lincoln </span>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+      
+           <div class="row" id="colleges4">
+
+              <div class="col-md-3">  
+              </div>
+
+              <div class="col-md-3">
+                <div id="oregon" class="college">
+                  <div id="overlay">
+                    <span class="college-text">University of Oregon</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div id="richmond" class="college">
+                  <div id="overlay">
+                    <span class="college-text">University of Richmond</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+              </div>
+
+            </div>
 
           </div>
         </div>
@@ -161,7 +244,7 @@
         <br>
         <br>
           <div id="contact-button-div">
-            <div class="col-xs-4">
+            <div class="col-xs-3">
             </div>
             <div class="col-xs-2">
               <div class="center-buttons">
@@ -181,7 +264,16 @@
                 </a>
               </div>
             </div>
-            <div class="col-xs-4">
+            <div class="col-xs-2">
+              <div class="center-buttons">
+                <a href="tel:+16265338240">
+                  <div class="contact-background">
+                    <img class="contact-links" id="phone" src="img/phone.png">
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-xs-3">
             </div>
           </div>
         </div>
