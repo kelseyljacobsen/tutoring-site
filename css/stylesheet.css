@@ -1,0 +1,384 @@
+nav {
+  font-family: 'Poiret One', cursive;
+  text-transform: uppercase;
+  font-size: 18px;
+  border-bottom: 5px solid #d9caaa !important;
+  box-shadow: 0 1px 0 #d1bf99 !important;
+  background-image: url("../img/school.png") !important;
+  padding-left: 6%;
+  padding-right: 6%;
+}
+
+.navbar-brand {
+  cursor: default;
+}
+
+.links {
+  color: #99abd1;
+}
+
+.navbar .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  background: url("../img/school.png");
+  color: white;
+}
+
+#brand-icon-img {
+  position: absolute;
+  z-index: 4;
+  top: 18%;
+  left: 15%;
+  padding-left: 6%;
+}
+
+#brand-icon-background {
+  position: relative;
+  z-index: 3;
+  top: -30px;
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  border: 5px solid #879dc9;
+  background-color: #99abd1;
+}
+
+#name {
+  position: absolute;
+  z-index: 4;
+  top: 30%;
+  left: 17%;
+  color: #99abd1 !important;
+  font-size: 19px !important;
+}
+
+html {
+  height: 100%;
+}
+
+body { 
+  height: 100%;
+  padding-top: 50px;
+  position: relative;
+}
+
+#desk-photo {
+  content: url("../img/desk.png");
+  width: 100%;
+  position: fixed;
+  margin-left: -30px;
+}
+
+#title {
+  text-align: center;
+  position: relative;
+  z-index: 11;
+  margin-top: 17%;
+  font-family: 'Poiret One', cursive !important;
+  color: white;
+  text-shadow: #5272b1 0.2em 0.2em 0.3em;
+}
+
+#title-name {
+  font-size: 100px;
+}
+
+#title-desc {
+  font-size: 60px;
+}
+
+#info1 {
+  width: 100%;
+  position: relative;
+  top: 100%;
+}
+
+#info2 {
+  width: 100%;
+  position: relative;
+  top: 200%;
+}
+
+.paper {
+  font: normal 18px/2 "Lucida Grande", arial, sans-serif;
+  width: 300px;
+  margin: 0 auto;
+  /*padding: 6px 5px 4px 42px;*/
+  position: relative;
+  color: #444;
+  line-height: 22px;
+  border: 1px solid #d2d2d2;
+
+  background: #fff;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#d9eaf3), color-stop(4%, #fff)) 0 4px;
+  background: -webkit-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
+  background: -moz-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
+  background: -ms-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
+  background: -o-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
+  background: linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
+
+  -webkit-background-size: 100% 22px;
+  -moz-background-size: 100% 22px;
+  -ms-background-size: 100% 22px;
+  -o-background-size: 100% 22px;
+  background-size: 100% 22px;
+
+/*  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;*/
+
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.07);
+  -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.07);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.07);
+}
+.paper::before {
+  content: '';
+  position: absolute;
+  width: 4px;
+  top: 0;
+  left: 30px;
+  bottom: 0;
+  border: 1px solid;
+  border-color: transparent #efe4e4;
+}
+
+#pic {
+  width: 100%;
+  border-radius: 50%;
+  border: 6px solid #879dc9;
+}
+
+#contact {
+  margin-top: 50px;
+  border-top: 5px solid #d9caaa;
+  box-shadow: 0 -1px 0 #d1bf99;
+  width: 100%;
+  background-image: url("../img/school.png");
+  height: 40vh;
+  z-index: 11;
+  position: relative;
+}
+
+h2 {
+  font-family: 'Poiret One', cursive !important;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+hr {
+  margin: 0 6%;
+}
+
+p {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+h4 {
+  font-family: 'Poiret One', cursive !important;
+}
+
+.college {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  border: 6px solid #879dc9;
+}
+
+#colleges {
+/*  margin-right: 5%;
+  margin-left: 7%;*/
+  text-align: center;
+  margin: auto;
+  /*display: inline-block;*/
+}
+
+#college {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  border: 6px solid #879dc9;
+  margin: auto;
+  text-align: center;
+}
+
+#asu {
+  background: url("../img/asu.png");
+  background-size: cover;
+}
+
+#bryn {
+  background: url("../img/brynmawr.png");
+  background-size: cover;
+}
+
+#clemson {
+  background: url("../img/clemson.png");
+  background-size: cover;
+}
+
+#indiana {
+  background: url("../img/indiana.png");
+  background-size: cover;
+}
+
+#overlay {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  background: rgba(0,0,0,.6);
+  background-size: cover;
+  opacity: 0;
+  -webkit-transition: opacity .25s ease;
+  -moz-transition: opacity .25s ease;
+  margin-left: -6px;
+  margin-top: -7px;
+  position: relative;
+  color: white;
+  font-family: 'Poiret One', cursive;
+  text-transform: uppercase;
+}
+
+.college-text {
+  position: relative;
+  padding: 5px;
+  top: 45%;
+  text-align: center;
+}
+
+#asu:hover #overlay {
+  opacity: 1;
+}
+
+#bryn:hover #overlay {
+  opacity: 1;
+}
+
+#clemson:hover #overlay {
+  opacity: 1;
+}
+
+#indiana:hover #overlay {
+  opacity: 1;
+}
+
+#contact-hr {
+  border-color: #d1bf99;
+}
+
+#successes-info {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+#about, #successes {
+  padding-top: 4%;
+  padding-bottom: 6%;
+}
+
+#about-me-info {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+#credentials-info {
+  text-align: center;
+}
+
+#linkedin {
+  margin-top: 13%;
+}
+
+#email {
+  margin-top: 12%;
+}
+
+.contact-background {
+  background-color: #99abd1;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  border: 5px solid #879dc9;
+}
+
+.contact-background:hover {
+  border: 5px solid #6480b9;
+  background-color: #879dc9;
+}
+
+.center-buttons {
+  text-align: center;
+  margin: auto;
+}
+
+#copyright {
+  text-align: center;
+  color: #99abd1;
+}
+
+@media (max-width: 991px) {
+  #name {
+    display: none;
+  }
+/*  #desk-photo {
+    height: 80%;
+  }*/
+  #title-name {
+    font-size: 80px;
+  } 
+  #title-desc {
+    font-size: 60px;
+  }
+  #pic {
+    width: 50%;
+  }
+  #pic-div {
+    text-align: center;
+  }
+  #info1 {
+    top: 80%;
+  }
+  #info2{
+    top: 160%;
+  }
+} 
+
+@media (max-width: 640px) {
+/*  #desk-photo {
+    height: 60%;
+  }*/
+  #title-name {
+    font-size: 60px;
+  } 
+  #title-desc {
+    font-size: 40px;
+  }
+  #info1 {
+    top: 60%;
+  }
+  #info2{
+    top: 120%;
+  }
+}
+
+@media (max-width: 400px) {
+/*  #desk-photo {
+    height: 50%;
+  }*/
+  #title-name {
+    font-size: 50px;
+  } 
+  #title-desc {
+    font-size: 20px;
+  }
+  #info1{
+    top: 15%;
+  }
+  #info2{
+    top: 60%;
+  }
+
+}
