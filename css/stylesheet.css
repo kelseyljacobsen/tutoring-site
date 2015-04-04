@@ -17,8 +17,8 @@ nav {
   color: #99abd1;
 }
 
-.navbar .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-  background: url("../img/school.png");
+.navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li > a:focus {
+  background: none;
   color: white;
 }
 
@@ -60,14 +60,14 @@ body {
   position: relative;
 }
 
-#desk-photo {
+.desk-photo {
   content: url("../img/desk.png");
   width: 100%;
   position: fixed;
   margin-left: -30px;
 }
 
-#title {
+.title {
   text-align: center;
   position: relative;
   z-index: 11;
@@ -77,11 +77,11 @@ body {
   text-shadow: #5272b1 0.2em 0.2em 0.3em;
 }
 
-#title-name {
+.title-name {
   font-size: 100px;
 }
 
-#title-desc {
+.title-desc {
   font-size: 60px;
 }
 
@@ -374,6 +374,15 @@ h4 {
   text-align: center;
 }
 
+#scholarship {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.astrick {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
 #linkedin {
   margin-top: 13%;
 }
@@ -416,13 +425,13 @@ h4 {
   #name {
     display: none;
   }
-/*  #desk-photo {
+  #desk-photo {
     height: 80%;
-  }*/
-  #title-name {
+  }
+  .title-name {
     font-size: 80px;
   } 
-  #title-desc {
+  .title-desc {
     font-size: 60px;
   }
   #pic {
@@ -440,13 +449,13 @@ h4 {
 } 
 
 @media (max-width: 640px) {
-/*  #desk-photo {
+  #desk-photo {
     height: 60%;
-  }*/
-  #title-name {
+  }
+  .title-name {
     font-size: 60px;
   } 
-  #title-desc {
+  .title-desc {
     font-size: 40px;
   }
   #info1 {
@@ -458,13 +467,13 @@ h4 {
 }
 
 @media (max-width: 400px) {
-/*  #desk-photo {
+  #desk-photo {
     height: 50%;
-  }*/
-  #title-name {
+  }
+  .title-name {
     font-size: 50px;
   } 
-  #title-desc {
+  .title-desc {
     font-size: 20px;
   }
   #info1{
