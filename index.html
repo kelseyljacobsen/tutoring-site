@@ -15,7 +15,7 @@
   </head>
 
 <!-- Navigation -->
-  <nav class="navbar navbar-fixed-top" role="navigation">
+  <nav id="navbar" class="navbar navbar-fixed-top" role="navigation">
       <div class="container-fluid">
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
@@ -34,6 +34,9 @@
                       <a class="links" id="ab" href="#about">About</a>
                   </li>
                   <li>
+                      <a class="links" id="sub" href="#subjects">Subjects</a>
+                  </li>
+                  <li>
                       <a class="links" id="success" href="#successes">Successes</a>
                   </li>
                   <li>
@@ -46,7 +49,7 @@
       <!-- /.container -->
   </nav>
 
-  <body data-spy="scroll">
+  <body data-spy="scroll" data-target="#navbar">
 
     <div class="container-fluid">
       <div class="col-xs-12">
@@ -93,8 +96,42 @@
         </div>
       </div>
     </div>
-    
+
     <div id="info2" class="paper">
+      <div id="subjects">
+        <div class="container-fluid">
+          <h2>subjects taught</h2>
+          <div id="subjects-info">
+            <div class="col-md-6">
+              <p>All elementary subjects</p>
+              <p>All middle school subjects</p>
+              <p>Pre-Algebra</p>
+              <p>Algebra</p>
+              <p>Geometry</p>
+              <p>Algebra 2</p>
+              <p>Precalculus</p> 
+              <p>Calculus</p>
+              <p>Statistics</p>
+              <p>English</p>
+            </div>
+            <div class="col-md-6">
+              <p>Creative Writing</p>
+              <p>US History</p>
+              <p>Euro History</p>
+              <p>SAT</p> 
+              <p>ACT</p>
+              <p>PSAT</p>
+              <p>AP English Tests</p>
+              <p>Study Skills</p>
+              <p>Organizational Skills</p>
+              <p>College Applications/Essays/Advisement</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div id="info3" class="paper">
 
       <div id="successes">
         <div class="container-fluid">
@@ -214,19 +251,19 @@
 
               <div class="col-md-3">
                 <a href="http://www.illinois.edu" style="text-decoration:none;" target="_blank">
-                  <div id="illinois" class="college">
+                  <div id="ucla" class="college">
                     <div id="overlay">
-                      <span class="college-text">University of Illinois at Urbana-Champaign</span>
+                      <span class="college-text">University of California at Los Angeles&nbsp;<span class="astrick">*</span></span>
                     </div>
                   </div>
                 </a>
               </div>
 
               <div class="col-md-3">
-                <a href="http://www.unl.edu" style="text-decoration:none;" target="_blank">
-                  <div id="nebraska" class="college">
+                <a href="http://www.illinois.edu" style="text-decoration:none;" target="_blank">
+                  <div id="illinois" class="college">
                     <div id="overlay">
-                      <span class="college-text">University of Nebraska - Lincoln&nbsp;<span class="astrick">*</span></span>
+                      <span class="college-text">University of Illinois at Urbana-Champaign</span>
                     </div>
                   </div>
                 </a>
@@ -236,7 +273,14 @@
       
            <div class="row" id="colleges4">
 
-              <div class="col-md-3">  
+              <div class="col-md-3">
+                <a href="http://www.unl.edu" style="text-decoration:none;" target="_blank">
+                  <div id="nebraska" class="college">
+                    <div id="overlay">
+                      <span class="college-text">University of Nebraska - Lincoln&nbsp;<span class="astrick">*</span></span>
+                    </div>
+                  </div>
+                </a>
               </div>
 
               <div class="col-md-3">
@@ -260,10 +304,17 @@
               </div>
 
               <div class="col-md-3">
+                <a href="http://www.richmond.edu" style="text-decoration:none;" target="_blank">
+                  <div id="usc" class="college">
+                    <div id="overlay">
+                      <span class="college-text">University of Southern California&nbsp;<span class="astrick">**</span></span>
+                    </div>
+                  </div>
+                </a>
               </div>
 
             </div>
-            <p id="scholarship">* Academic scholarship awarded</p>
+            <p id="scholarship">* Academic scholarship awarded<br><br>** Full academic scholarship awarded</p>
           </div>
         </div>
       </div>

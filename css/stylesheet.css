@@ -65,6 +65,7 @@ body {
   width: 100%;
   position: fixed;
   margin-left: -30px;
+  height: 90%;
 }
 
 .title {
@@ -95,6 +96,16 @@ body {
   width: 100%;
   position: relative;
   top: 200%;
+}
+
+#info3 {
+  width: 100%;
+  position: relative;
+  top: 300%;
+}
+
+#subjects-info {
+  text-align: center;
 }
 
 .paper {
@@ -242,28 +253,34 @@ h4 {
   background-size: cover;
 }
 
-#illinois {
-  background: url("../img/illinois.png");
+#usc {
+  background: url("../img/usc.png") no-repeat center center;
   background-size: cover;
-  background-position: center;
+}
+
+#ucla {
+  background: url("../img/ucla.png") no-repeat center center;
+  background-size: cover;
+}
+
+#illinois {
+  background: url("../img/illinois.png") no-repeat center center;
+  background-size: cover;
 }
 
 #nebraska {
-  background: url("../img/nebraska.png");
+  background: url("../img/nebraska.png") no-repeat center center;
   background-size: cover;
-  background-position: center;
 }
 
 #oregon {
-  background: url("../img/oregon.png");
+  background: url("../img/oregon.png") no-repeat center center;
   background-size: cover;
-  background-position: center;
 }
 
 #richmond {
-  background: url("../img/richmond.png");
+  background: url("../img/richmond.png") no-repeat center center;
   background-size: cover;
-  background-position: center;
 }
 
 #overlay {
@@ -346,6 +363,14 @@ h4 {
   opacity: 1;
 }
 
+#usc:hover #overlay {
+  opacity: 1;
+}
+
+#ucla:hover #overlay {
+  opacity: 1;
+}
+
 #contact-hr {
   border-color: #d1bf99;
 }
@@ -360,7 +385,7 @@ h4 {
   margin: 0 5%;
 }
 
-#about, #successes {
+#about, #successes, #subjects {
   padding-top: 4%;
   padding-bottom: 6%;
 }
@@ -443,8 +468,11 @@ h4 {
   #info1 {
     top: 80%;
   }
-  #info2{
+  #info2 {
     top: 160%;
+  }
+  #info3{
+    top: 220%;
   }
 } 
 
@@ -464,6 +492,9 @@ h4 {
   #info2{
     top: 120%;
   }
+  #info3 {
+    top: 160%;
+  }
 }
 
 @media (max-width: 400px) {
@@ -479,8 +510,11 @@ h4 {
   #info1{
     top: 15%;
   }
-  #info2{
+  #info2 {
     top: 60%;
+  }
+  #info3 {
+    top: 105%;
   }
 
 }

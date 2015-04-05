@@ -7,6 +7,13 @@ $(document).ready(function () {
     }, 800);
   });
 
+  $("#sub").on('click', function(e) {
+    e.preventDefault();
+    $('html, body').animate({
+       scrollTop: $("#subjects").offset().top
+    }, 800);
+  });
+
   $("#success").on('click', function(e) {
     e.preventDefault();
     $('html, body').animate({
