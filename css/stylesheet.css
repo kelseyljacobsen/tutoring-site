@@ -65,8 +65,10 @@ body {
 }
 
 .desk-photo {
-  content: url("../img/desk.png");
   width: 100%;
+  background-image: url("../img/desk.png") ;
+  background-size: cover;
+  background-position: center;
   position: fixed;
   margin-left: -30px;
   height: 90%;
@@ -165,6 +167,7 @@ body {
 
 #contact {
   margin-top: 50px;
+  margin-bottom: 0px;
   border-top: 5px solid #d9caaa;
   box-shadow: 0 -1px 0 #d1bf99;
   width: 100%;
@@ -429,6 +432,7 @@ h4 {
   width: 40px;
   margin-top: 9%;
 }
+
 .contact-background {
   background-color: #99abd1;
   height: 60px;
